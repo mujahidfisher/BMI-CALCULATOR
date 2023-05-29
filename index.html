@@ -1,38 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
     <title>BMI CALCULATOR</title>
-</head>
-<body>
-<center>
-    <div class="formplace">
-        <label   for="Number">Weight:</label>
-        <input  type="number" id="number1" required>
-    </div>
-<br>
-    <div class="formplace">
-          <label for="Number">Height:</label>
-          <input type="number" id="number2" required>
-    </div> 
-    <div class="display">
-    <input id="result" readonly>
-</div>
-<div class="button">
-   
-    <br>
-    <button id="calculate">
-        Calculate
-    </button>
-    <button id="clear">
+  </head>
+  <body>
+    <center>
+      <div class="formplace">
+        <label for="Number">Weight:</label>
+        <input type="number" id="weight" />
+      </div>
+      <br />
+      <div class="formplace">
+        <label for="Number">Height:</label>
+        <input type="number" id="height" />
+      </div>
+      <div class="display">
+        <p id="result" readonly></p>
+      </div>
+      <br />
+      <button class="btn" id="calculate" type="button">Calculate</button>
+      <button id="clear">
         <a href="./index.html">Clear</a>
-    </button>
-</div>
-    
-</center>
+      </button>
+    </center>
     <script src="./script/script.js"></script>
-</body>
+  </body>
 </html>

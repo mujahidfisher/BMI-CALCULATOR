@@ -1,52 +1,54 @@
 .formplace {
-    border: black 2px solid;
-    width: 300px;
-    height: auto;
-    background-color: rgb(24, 49, 49);
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
+  border: black 2px solid;
+  width: 300px;
+  height: auto;
+  background-color: rgb(24, 49, 49);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
 }
 
 #result {
-    border: black 4px solid;
-    width: 300px;
-    height: 30px;
-    font-size: 20px;
+  border: black 4px solid;
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
 }
 
 #calculate {
-    border: black 2px solid;
-    border-radius: 20px;
-    width: 6rem;
-    height: 2rem;
-    background-color: rgb(24, 49, 49);
-    color: white;
-    cursor: pointer;
+  border: black 2px solid;
+  border-radius: 20px;
+  width: 6rem;
+  height: 2rem;
+  background-color: rgb(24, 49, 49);
+  color: white;
+  cursor: pointer;
 }
 
 #clear {
-    border: black 2px solid;
-    border-radius: 20px;
-    width: 6rem;
-    height: 2rem;
-    background-color: rgb(24, 49, 49);
+  border: black 2px solid;
+  border-radius: 20px;
+  width: 6rem;
+  height: 2rem;
+  background-color: rgb(24, 49, 49);
 }
 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 body {
-    background-color: aquamarine;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding: 10rem;
-    margin: auto;
-    
+  background-color: aquamarine;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 10rem;
+  margin: auto;
 }
 .display {
-    padding: 20px;
+  padding: 20px;
+}
+p {
+    background-color: white;
 }
